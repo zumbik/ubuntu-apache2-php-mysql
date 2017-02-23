@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER zumbik
 
-RUN apt upgrade
+RUN apt update
 RUN apt install -y apache2
 RUN apt install -y php
 RUN apt install -y php-mysql
